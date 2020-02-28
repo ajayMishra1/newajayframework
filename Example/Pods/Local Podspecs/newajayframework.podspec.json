@@ -1,0 +1,22 @@
+{
+  "name": "newajayframework",
+  "version": "0.1.0",
+  "summary": "A short description of newajayframework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ajay mishra/newajayframework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ajay mishra": "ajay@ironeclick.com"
+  },
+  "source": {
+    "git": "https://github.com/ajay mishra/newajayframework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "newajayframework/Classes/**/*"
+}

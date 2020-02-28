@@ -1,0 +1,16 @@
+PODS:
+  - newajayframework (0.1.0)
+
+DEPENDENCIES:
+  - newajayframework (from `../`)
+
+EXTERNAL SOURCES:
+  newajayframework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  newajayframework: bc3b298bf45b1f2b1dd1f590bbe886abacdb3c82
+
+PODFILE CHECKSUM: 8865e78f4f994c2c66ee29b5143abe5c74c71804
+
+COCOAPODS: 1.7.5
