@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'newajayframework_Example' do
+  pod 'newajayframework', :path => '../'
+
+  target 'newajayframework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
