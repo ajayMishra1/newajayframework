@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16794127E645C85FA1516708 /* newajayframework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = newajayframework.podspec; path = ../newajayframework.podspec; sourceTree = "<group>"; };
+		16794127E645C85FA1516708 /* newajayframework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = newajayframework.podspec; path = ../newajayframework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		54D9B55563110F48B9F396BE /* Pods-newajayframework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newajayframework_Tests.release.xcconfig"; path = "Target Support Files/Pods-newajayframework_Tests/Pods-newajayframework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5D5E23DD9EDC1B2CD8AA07F7 /* Pods_newajayframework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_newajayframework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAFFF88BC3D6A83280DFDD6 /* Pods-newajayframework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newajayframework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-newajayframework_Tests/Pods-newajayframework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		67C66E66E6EAB6271CBF1F9C /* Pods-newajayframework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newajayframework_Example.debug.xcconfig"; path = "Target Support Files/Pods-newajayframework_Example/Pods-newajayframework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		87BF5DCAD94379DDB2D5F07E /* Pods-newajayframework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newajayframework_Example.release.xcconfig"; path = "Target Support Files/Pods-newajayframework_Example/Pods-newajayframework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		88B1B396FDA6E23E0B551D4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		88B1B396FDA6E23E0B551D4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D1876E59D7FE776A600DB439 /* Pods_newajayframework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_newajayframework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8ED6F78DFABDC19061DF2B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F8ED6F78DFABDC19061DF2B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				5EAFFF88BC3D6A83280DFDD6 /* Pods-newajayframework_Tests.debug.xcconfig */,
 				54D9B55563110F48B9F396BE /* Pods-newajayframework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
